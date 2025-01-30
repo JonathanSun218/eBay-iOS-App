@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F36FFCC2B1C379C003CFE5B /* SimilarProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F36FFCB2B1C379C003CFE5B /* SimilarProduct.swift */; };
+		0F4245E42B06E7480097F03D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 0F4245E32B06E7480097F03D /* Alamofire */; };
+		0F4245E72B06E79D0097F03D /* PromiseKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0F4245E62B06E79D0097F03D /* PromiseKit */; };
+		0F4245E92B0718170097F03D /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4245E82B0718170097F03D /* APIHandler.swift */; };
+		0F509A4B2B1EA7ED008593F1 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F509A4A2B1EA7ED008593F1 /* Toast.swift */; };
+		0F509A512B1EF894008593F1 /* ItemView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F509A502B1EF894008593F1 /* ItemView2.swift */; };
+		0F5ADBF22B0B466B00E54E45 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5ADBF12B0B466B00E54E45 /* ListItem.swift */; };
+		0F8CE2FA2B1F1CF3006495B1 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8CE2F92B1F1CF3006495B1 /* FavoritesView.swift */; };
+		0F8CE2FC2B1F20AF006495B1 /* WishlistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8CE2FB2B1F20AF006495B1 /* WishlistItem.swift */; };
+		0F956B942B2003F400B37297 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F956B932B2003F400B37297 /* Launch Screen.storyboard */; };
+		0FB8D5FF2B043DB8001051B4 /* eBay_iOS_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB8D5FE2B043DB8001051B4 /* eBay_iOS_App.swift */; };
+		0FB8D6012B043DB8001051B4 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB8D6002B043DB8001051B4 /* FormView.swift */; };
+		0FB8D6052B043DB9001051B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FB8D6042B043DB9001051B4 /* Assets.xcassets */; };
+		0FB8D6082B043DB9001051B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FB8D6072B043DB9001051B4 /* Preview Assets.xcassets */; };
+		0FB8D6122B043DB9001051B4 /* eBay_iOS_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB8D6112B043DB9001051B4 /* eBay_iOS_AppTests.swift */; };
+		0FB8D61C2B043DB9001051B4 /* eBay_iOS_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB8D61B2B043DB9001051B4 /* eBay_iOS_AppUITests.swift */; };
+		0FB8D61E2B043DB9001051B4 /* eBay_iOS_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB8D61D2B043DB9001051B4 /* eBay_iOS_AppUITestsLaunchTests.swift */; };
+		0FB8D62B2B043FB0001051B4 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB8D62A2B043FB0001051B4 /* InfoView.swift */; };
+		0FB8D62D2B043FD0001051B4 /* ShippingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB8D62C2B043FD0001051B4 /* ShippingView.swift */; };
+		0FB8D62F2B043FDE001051B4 /* PhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB8D62E2B043FDE001051B4 /* PhotosView.swift */; };
+		0FB8D6312B043FED001051B4 /* SimilarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB8D6302B043FED001051B4 /* SimilarView.swift */; };
+		0FC06A012B15DC4900297B0D /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 0FC06A002B15DC4900297B0D /* SwiftyJSON */; };
+		0FC06A042B15F26600297B0D /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 0FC06A032B15F26600297B0D /* Kingfisher */; };
+		0FC06A062B15FC0300297B0D /* SingleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC06A052B15FC0300297B0D /* SingleItem.swift */; };
+		0FC4728D2B1DD92B00B685EA /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC4728C2B1DD92B00B685EA /* SheetView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0FB8D60E2B043DB9001051B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FB8D5F32B043DB8001051B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FB8D5FA2B043DB8001051B4;
+			remoteInfo = "eBay-iOS-App";
+		};
+		0FB8D6182B043DB9001051B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FB8D5F32B043DB8001051B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FB8D5FA2B043DB8001051B4;
+			remoteInfo = "eBay-iOS-App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F36FFCB2B1C379C003CFE5B /* SimilarProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimilarProduct.swift; sourceTree = "<group>"; };
+		0F4245E82B0718170097F03D /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		0F4245EA2B0729DC0097F03D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0F509A4A2B1EA7ED008593F1 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		0F509A502B1EF894008593F1 /* ItemView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView2.swift; sourceTree = "<group>"; };
+		0F5ADBF12B0B466B00E54E45 /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		0F8CE2F92B1F1CF3006495B1 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		0F8CE2FB2B1F20AF006495B1 /* WishlistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistItem.swift; sourceTree = "<group>"; };
+		0F956B932B2003F400B37297 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		0FB8D5FB2B043DB8001051B4 /* eBay-iOS-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eBay-iOS-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FB8D5FE2B043DB8001051B4 /* eBay_iOS_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eBay_iOS_App.swift; sourceTree = "<group>"; };
+		0FB8D6002B043DB8001051B4 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		0FB8D6042B043DB9001051B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0FB8D6072B043DB9001051B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0FB8D60D2B043DB9001051B4 /* eBay-iOS-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eBay-iOS-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FB8D6112B043DB9001051B4 /* eBay_iOS_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eBay_iOS_AppTests.swift; sourceTree = "<group>"; };
+		0FB8D6172B043DB9001051B4 /* eBay-iOS-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eBay-iOS-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FB8D61B2B043DB9001051B4 /* eBay_iOS_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eBay_iOS_AppUITests.swift; sourceTree = "<group>"; };
+		0FB8D61D2B043DB9001051B4 /* eBay_iOS_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eBay_iOS_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0FB8D62A2B043FB0001051B4 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		0FB8D62C2B043FD0001051B4 /* ShippingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShippingView.swift; sourceTree = "<group>"; };
+		0FB8D62E2B043FDE001051B4 /* PhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosView.swift; sourceTree = "<group>"; };
+		0FB8D6302B043FED001051B4 /* SimilarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimilarView.swift; sourceTree = "<group>"; };
+		0FC06A052B15FC0300297B0D /* SingleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleItem.swift; sourceTree = "<group>"; };
+		0FC4728C2B1DD92B00B685EA /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FB8D5F82B043DB8001051B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FC06A042B15F26600297B0D /* Kingfisher in Frameworks */,
+				0FC06A012B15DC4900297B0D /* SwiftyJSON in Frameworks */,
+				0F4245E42B06E7480097F03D /* Alamofire in Frameworks */,
+				0F4245E72B06E79D0097F03D /* PromiseKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FB8D60A2B043DB9001051B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FB8D6142B043DB9001051B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FB8D5F22B043DB8001051B4 = {
+			isa = PBXGroup;
+			children = (
+				0FB8D5FD2B043DB8001051B4 /* eBay-iOS-App */,
+				0FB8D6102B043DB9001051B4 /* eBay-iOS-AppTests */,
+				0FB8D61A2B043DB9001051B4 /* eBay-iOS-AppUITests */,
+				0FB8D5FC2B043DB8001051B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0FB8D5FC2B043DB8001051B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FB8D5FB2B043DB8001051B4 /* eBay-iOS-App.app */,
+				0FB8D60D2B043DB9001051B4 /* eBay-iOS-AppTests.xctest */,
+				0FB8D6172B043DB9001051B4 /* eBay-iOS-AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FB8D5FD2B043DB8001051B4 /* eBay-iOS-App */ = {
+			isa = PBXGroup;
+			children = (
+				0F4245EA2B0729DC0097F03D /* Info.plist */,
+				0FB8D5FE2B043DB8001051B4 /* eBay_iOS_App.swift */,
+				0F4245E82B0718170097F03D /* APIHandler.swift */,
+				0F5ADBF12B0B466B00E54E45 /* ListItem.swift */,
+				0FC06A052B15FC0300297B0D /* SingleItem.swift */,
+				0F8CE2FB2B1F20AF006495B1 /* WishlistItem.swift */,
+				0F36FFCB2B1C379C003CFE5B /* SimilarProduct.swift */,
+				0FB8D6042B043DB9001051B4 /* Assets.xcassets */,
+				0F509A4A2B1EA7ED008593F1 /* Toast.swift */,
+				0FB8D6002B043DB8001051B4 /* FormView.swift */,
+				0F8CE2F92B1F1CF3006495B1 /* FavoritesView.swift */,
+				0FC4728C2B1DD92B00B685EA /* SheetView.swift */,
+				0F509A502B1EF894008593F1 /* ItemView2.swift */,
+				0FB8D62A2B043FB0001051B4 /* InfoView.swift */,
+				0FB8D62C2B043FD0001051B4 /* ShippingView.swift */,
+				0FB8D62E2B043FDE001051B4 /* PhotosView.swift */,
+				0FB8D6302B043FED001051B4 /* SimilarView.swift */,
+				0FB8D6062B043DB9001051B4 /* Preview Content */,
+				0F956B932B2003F400B37297 /* Launch Screen.storyboard */,
+			);
+			path = "eBay-iOS-App";
+			sourceTree = "<group>";
+		};
+		0FB8D6062B043DB9001051B4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0FB8D6072B043DB9001051B4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0FB8D6102B043DB9001051B4 /* eBay-iOS-AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0FB8D6112B043DB9001051B4 /* eBay_iOS_AppTests.swift */,
+			);
+			path = "eBay-iOS-AppTests";
+			sourceTree = "<group>";
+		};
+		0FB8D61A2B043DB9001051B4 /* eBay-iOS-AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0FB8D61B2B043DB9001051B4 /* eBay_iOS_AppUITests.swift */,
+				0FB8D61D2B043DB9001051B4 /* eBay_iOS_AppUITestsLaunchTests.swift */,
+			);
+			path = "eBay-iOS-AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FB8D5FA2B043DB8001051B4 /* eBay-iOS-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FB8D6212B043DB9001051B4 /* Build configuration list for PBXNativeTarget "eBay-iOS-App" */;
+			buildPhases = (
+				0FB8D5F72B043DB8001051B4 /* Sources */,
+				0FB8D5F82B043DB8001051B4 /* Frameworks */,
+				0FB8D5F92B043DB8001051B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "eBay-iOS-App";
+			packageProductDependencies = (
+				0F4245E32B06E7480097F03D /* Alamofire */,
+				0F4245E62B06E79D0097F03D /* PromiseKit */,
+				0FC06A002B15DC4900297B0D /* SwiftyJSON */,
+				0FC06A032B15F26600297B0D /* Kingfisher */,
+			);
+			productName = "eBay-iOS-App";
+			productReference = 0FB8D5FB2B043DB8001051B4 /* eBay-iOS-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0FB8D60C2B043DB9001051B4 /* eBay-iOS-AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FB8D6242B043DB9001051B4 /* Build configuration list for PBXNativeTarget "eBay-iOS-AppTests" */;
+			buildPhases = (
+				0FB8D6092B043DB9001051B4 /* Sources */,
+				0FB8D60A2B043DB9001051B4 /* Frameworks */,
+				0FB8D60B2B043DB9001051B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FB8D60F2B043DB9001051B4 /* PBXTargetDependency */,
+			);
+			name = "eBay-iOS-AppTests";
+			productName = "eBay-iOS-AppTests";
+			productReference = 0FB8D60D2B043DB9001051B4 /* eBay-iOS-AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0FB8D6162B043DB9001051B4 /* eBay-iOS-AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FB8D6272B043DB9001051B4 /* Build configuration list for PBXNativeTarget "eBay-iOS-AppUITests" */;
+			buildPhases = (
+				0FB8D6132B043DB9001051B4 /* Sources */,
+				0FB8D6142B043DB9001051B4 /* Frameworks */,
+				0FB8D6152B043DB9001051B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FB8D6192B043DB9001051B4 /* PBXTargetDependency */,
+			);
+			name = "eBay-iOS-AppUITests";
+			productName = "eBay-iOS-AppUITests";
+			productReference = 0FB8D6172B043DB9001051B4 /* eBay-iOS-AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FB8D5F32B043DB8001051B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					0FB8D5FA2B043DB8001051B4 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					0FB8D60C2B043DB9001051B4 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 0FB8D5FA2B043DB8001051B4;
+					};
+					0FB8D6162B043DB9001051B4 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 0FB8D5FA2B043DB8001051B4;
+					};
+				};
+			};
+			buildConfigurationList = 0FB8D5F62B043DB8001051B4 /* Build configuration list for PBXProject "eBay-iOS-App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0FB8D5F22B043DB8001051B4;
+			packageReferences = (
+				0F4245E22B06E7480097F03D /* XCRemoteSwiftPackageReference "Alamofire" */,
+				0F4245E52B06E79D0097F03D /* XCRemoteSwiftPackageReference "PromiseKit" */,
+				0FC069FF2B15DC4900297B0D /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				0FC06A022B15F26600297B0D /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 0FB8D5FC2B043DB8001051B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FB8D5FA2B043DB8001051B4 /* eBay-iOS-App */,
+				0FB8D60C2B043DB9001051B4 /* eBay-iOS-AppTests */,
+				0FB8D6162B043DB9001051B4 /* eBay-iOS-AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FB8D5F92B043DB8001051B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F956B942B2003F400B37297 /* Launch Screen.storyboard in Resources */,
+				0FB8D6082B043DB9001051B4 /* Preview Assets.xcassets in Resources */,
+				0FB8D6052B043DB9001051B4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FB8D60B2B043DB9001051B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FB8D6152B043DB9001051B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FB8D5F72B043DB8001051B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FB8D62B2B043FB0001051B4 /* InfoView.swift in Sources */,
+				0FB8D6012B043DB8001051B4 /* FormView.swift in Sources */,
+				0FC06A062B15FC0300297B0D /* SingleItem.swift in Sources */,
+				0F5ADBF22B0B466B00E54E45 /* ListItem.swift in Sources */,
+				0F8CE2FC2B1F20AF006495B1 /* WishlistItem.swift in Sources */,
+				0FC4728D2B1DD92B00B685EA /* SheetView.swift in Sources */,
+				0F4245E92B0718170097F03D /* APIHandler.swift in Sources */,
+				0F8CE2FA2B1F1CF3006495B1 /* FavoritesView.swift in Sources */,
+				0FB8D62D2B043FD0001051B4 /* ShippingView.swift in Sources */,
+				0FB8D5FF2B043DB8001051B4 /* eBay_iOS_App.swift in Sources */,
+				0F509A512B1EF894008593F1 /* ItemView2.swift in Sources */,
+				0F36FFCC2B1C379C003CFE5B /* SimilarProduct.swift in Sources */,
+				0FB8D6312B043FED001051B4 /* SimilarView.swift in Sources */,
+				0FB8D62F2B043FDE001051B4 /* PhotosView.swift in Sources */,
+				0F509A4B2B1EA7ED008593F1 /* Toast.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FB8D6092B043DB9001051B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FB8D6122B043DB9001051B4 /* eBay_iOS_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FB8D6132B043DB9001051B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FB8D61C2B043DB9001051B4 /* eBay_iOS_AppUITests.swift in Sources */,
+				0FB8D61E2B043DB9001051B4 /* eBay_iOS_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0FB8D60F2B043DB9001051B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FB8D5FA2B043DB8001051B4 /* eBay-iOS-App */;
+			targetProxy = 0FB8D60E2B043DB9001051B4 /* PBXContainerItemProxy */;
+		};
+		0FB8D6192B043DB9001051B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FB8D5FA2B043DB8001051B4 /* eBay-iOS-App */;
+			targetProxy = 0FB8D6182B043DB9001051B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FB8D61F2B043DB9001051B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0FB8D6202B043DB9001051B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FB8D6222B043DB9001051B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"eBay-iOS-App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "eBay-iOS-App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "eBay Search";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jonathansun.eBay-iOS-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0FB8D6232B043DB9001051B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"eBay-iOS-App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "eBay-iOS-App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "eBay Search";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jonathansun.eBay-iOS-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0FB8D6252B043DB9001051B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jonathansun.eBay-iOS-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eBay-iOS-App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/eBay-iOS-App";
+			};
+			name = Debug;
+		};
+		0FB8D6262B043DB9001051B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jonathansun.eBay-iOS-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eBay-iOS-App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/eBay-iOS-App";
+			};
+			name = Release;
+		};
+		0FB8D6282B043DB9001051B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jonathansun.eBay-iOS-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "eBay-iOS-App";
+			};
+			name = Debug;
+		};
+		0FB8D6292B043DB9001051B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jonathansun.eBay-iOS-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "eBay-iOS-App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FB8D5F62B043DB8001051B4 /* Build configuration list for PBXProject "eBay-iOS-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FB8D61F2B043DB9001051B4 /* Debug */,
+				0FB8D6202B043DB9001051B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FB8D6212B043DB9001051B4 /* Build configuration list for PBXNativeTarget "eBay-iOS-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FB8D6222B043DB9001051B4 /* Debug */,
+				0FB8D6232B043DB9001051B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FB8D6242B043DB9001051B4 /* Build configuration list for PBXNativeTarget "eBay-iOS-AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FB8D6252B043DB9001051B4 /* Debug */,
+				0FB8D6262B043DB9001051B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FB8D6272B043DB9001051B4 /* Build configuration list for PBXNativeTarget "eBay-iOS-AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FB8D6282B043DB9001051B4 /* Debug */,
+				0FB8D6292B043DB9001051B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0F4245E22B06E7480097F03D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+		0F4245E52B06E79D0097F03D /* XCRemoteSwiftPackageReference "PromiseKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mxcl/PromiseKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.1.1;
+			};
+		};
+		0FC069FF2B15DC4900297B0D /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		0FC06A022B15F26600297B0D /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0F4245E32B06E7480097F03D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F4245E22B06E7480097F03D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		0F4245E62B06E79D0097F03D /* PromiseKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F4245E52B06E79D0097F03D /* XCRemoteSwiftPackageReference "PromiseKit" */;
+			productName = PromiseKit;
+		};
+		0FC06A002B15DC4900297B0D /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0FC069FF2B15DC4900297B0D /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		0FC06A032B15F26600297B0D /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0FC06A022B15F26600297B0D /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0FB8D5F32B043DB8001051B4 /* Project object */;
+}
